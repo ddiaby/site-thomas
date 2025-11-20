@@ -1,0 +1,325 @@
+/**** GENERAL ****/
+
+body {
+    font-family: "Heebo", sans-serif;
+    margin: 0;
+}
+
+/**** NAVIGATION ****/
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    padding-left: 20px ;
+    padding-right: 20px ;
+    box-sizing: border-box;
+    margin: 15px auto 0 auto;
+}
+
+#nav-links {
+    display:flex ;
+    gap:65px ;
+}
+
+.nav-links{
+    color: #000000;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+#menu-button {
+    display: none;
+}
+
+/**** HEADER ****/
+
+header {
+    DISPLAY: FLEX;
+    justify-content: space-between;
+    max-width: 1200px;
+    padding-left: 20px ;
+    padding-right: 20px ;
+    box-sizing: border-box;
+    margin: 75px auto;
+}
+
+#Header-content {
+width: 630px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 44px;
+    margin-bottom: 0%;
+}
+
+a#button-cv {
+    background-color: #FF6464;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px 15px;
+}
+
+#subtitle {
+    font-size: 16px;
+    margin: 35px 0;
+}
+
+/**** BLOG ****/
+
+#Blog {
+    background-color: #EDF7FA;
+    padding-bottom: 25px;
+    
+}
+
+#blog-content {
+   max-width: 1200px;
+   padding-left: 20px ;
+   padding-right: 20px ;
+   box-sizing: border-box; 
+   margin: auto;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 22px;
+    padding-top: 20px;
+}
+
+#article {
+    display: flex;
+    justify-content: space-between;
+}
+
+.article-blog {
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    width: 543px;
+    max-width: 48%;
+    padding: 10px 20px;
+    BOX-SIZING: border-box;
+
+}
+
+.article-title {
+    font-size: 26px;
+}
+
+.date-categorie {
+    font-size: 18px;
+    display: flex;
+    gap: 25px;
+}
+
+.article-descritpion {
+    font-size: 16px;
+}
+
+/**** PORTFOLIO ****/
+
+#projets {
+    max-width: 1200px;
+    padding-left: 20px ;
+    padding-right: 20px ;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.projets {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 40px;
+}
+
+#projets {
+}
+
+.projet {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 40px;
+}
+
+.projet-title {
+    font-weight: 700;
+    font-size: 30px;
+    margin: 0 0 16px 0;
+}
+
+.date-type {
+    DISPLAY: flex;
+    GAP: 25px;
+}
+
+projet-date {
+}
+
+.projet-date {
+    background-color: #142850;
+    border-radius: 16px;
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 18px;
+    WIDTH: 62px;
+    height: 25px;
+    text-align: center;
+}
+
+.projet-type {
+    color: #8695A4;
+    font-size: 20px;
+}
+
+.projet-description {
+    font-size: 16px;
+}
+
+#contact-content {
+}
+
+/**** CONTACT ****/
+
+#coordonnees {
+    flex: 1;
+}
+
+#coordonnees {
+}
+
+#contact-content {
+    display: flex;
+    gap: 40px;
+}
+
+#contact {
+    max-width: 1200px;
+    padding-left: 20px ;
+    padding-right: 20px ;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.contact-title {
+    font-weight: 800;
+    font-size: 36px;
+}
+
+#contact-intro {
+    font-size: 20px;
+}
+
+#email {
+    font-size: 16px;
+}
+
+.socials.links {
+    font-size: 16px;
+    color: #000000;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    FLEX: 1;
+    gap: 10px;
+}
+
+label {
+    FONT-SIZE: 14px;
+}
+
+input, select, textarea {
+    background: #F7F7F7;
+    border: none;
+    height: 46px;
+}
+
+textarea#message {
+    height: 165px;
+}
+
+button {
+    background: #000000;
+    color: white;
+    border: none;
+    height: 56px;
+}
+
+/**** FOOTER ****/
+
+footer {
+    PADDING-TOP: 100px;
+    TEXT-ALIGN: center;
+    PADDING-BOTTOM: 20px;
+}
+
+#icons-socials {display: flex;gap: 20px;justify-content: center;}
+
+#Copyright {
+    font-size: 14px;
+    color: #21243D;
+}
+
+
+@media (max-width:700px) {
+.nav-links {
+    display: none;
+
+}
+
+#menu-button {
+    display: block;
+}
+header {
+    flex-direction: column-reverse;
+    text-align: center;
+}
+
+#Header-content {
+    width: 100%;
+}
+
+h2 {
+    TEXT-ALIGN: center;
+}
+   
+#article {
+   flex-direction: column; 
+   gap: 20px;
+}
+
+.article-blog {
+    max-width: none;
+    width: 100%;
+}
+
+.date-categorie {
+   gap: 5px; 
+}
+
+.projets {
+    flex-direction: column;
+}
+.projet {
+    flex-direction: column;
+
+}
+.projet-image {
+        width: 100%;
+    }
+
+#coordonnees {
+        display: none;
+}  
+
+
+    
+}
+
+
+    
