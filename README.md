@@ -6,6 +6,9 @@ Le site est responsive, rapide et respecte fidèlement la maquette fournie pour 
 Le menu fixe permet la navigation via des ancres (#accueil, #articles, #portfolio, #contact).  
 Le bouton “Télécharger le CV” permet de récupérer un document PDF.  
 
+## Lien vers le site hébergé
+https://ddiaby.github.io/site-thomas/
+
 ## Technologies utilisées
 - HTML5
 - CSS3 (Flexbox / Grid)
