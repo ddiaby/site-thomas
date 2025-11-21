@@ -2,20 +2,25 @@
 
 ## Description
 Site vitrine pour Thomas, graphiste freelance, présentant son identité visuelle, UI et illustrations.  
-Le site est responsive, rapide et respecte la maquette fournie. Les sections sont accessibles via les ancres du menu.  
-Les maquettes Figma pour la version ordinateur et la version mobile sont fournies.
+Le site est responsive, rapide et respecte fidèlement la maquette fournie pour desktop et mobile (libre pour tablette).  
+Le menu fixe permet la navigation via des ancres (#accueil, #articles, #portfolio, #contact).  
+Le bouton “Télécharger le CV” permet de récupérer un document PDF.  
 
 ## Technologies utilisées
 - HTML5
 - CSS3 (Flexbox / Grid)
-- Polices : Heebo (ou Poppins si indisponible)
-- Images optimisées pour le web
+- Polices : Heebo via Google Fonts (ou Poppins si indisponible)
+- Images optimisées pour le web avec attributs alt descriptifs
 - Validation W3C respectée
+- Accessibilité de base : labels, lang="fr", landmarks ARIA si nécessaire
 
 ## Fonctionnalités
-- Menu avec ancres pour navigation fluide
-- Responsive design : mobile, tablette et desktop
-- Formulaire de contact fonctionnel
+- Menu principal fixe avec ancres vers les sections
+- Site responsive : desktop et mobile obligatoires, tablette libre mais cohérente
+- Formulaire de contact fonctionnel avec labels et attributs alt
+- Bouton pour télécharger le CV
+- Mise en page fidèle à la maquette (espacements, couleurs, typographie)
+- Performance optimisée : images compressées, code propre
 
 ## Installation / Déploiement
 1. Cloner le dépôt GitHub :  
